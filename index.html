@@ -13,10 +13,14 @@ Insights:
 <a id="seeMore" onclick="toggleSeeMore()" href="javascript:void(0);">(Show table of contents)</a>
 <br>
 <p id="textarea" style="display: none">
+<ol>
 {% for post in paginator.posts %}
+<li>
 <a href="#{{ post.title }}"> {{ post.title }} </a> <br>
+</li>
 {% endfor %}
 </p>
+</ol>
 <br>
 <div class="posts">
   {% for post in paginator.posts %}
