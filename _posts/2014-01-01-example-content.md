@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Example content
-tags: gender india
+tags: 
+ - gender
+ - india
 ---
 
 
