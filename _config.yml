@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Aspiring Minds Insights
 tagline:          '52 insights into the Indian labour market, served one week at a time'
 description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://lanyon.getpoole.com
+url:              http://harshnisar.github.io/insights
 
 extra:
   name:           'insights'
