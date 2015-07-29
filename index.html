@@ -9,10 +9,13 @@ Subscribe here to get the Insights delivered to your inbox.
 Read more about the project <a href=""> here</a>
 <br><br>
 Insights: 
+<a id="seeMore" onclick="toggleSeeMore()" href="javascript:void(0);">Show index</a>
 <br>
+<p id="textarea" style="display: none">
 {% for post in paginator.posts %}
 <a href="#{{ post.title }}"> {{ post.title }} </a> <br>
 {% endfor %}
+</p>
 <br>
 <div class="posts">
   {% for post in paginator.posts %}
