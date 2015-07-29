@@ -12,7 +12,7 @@ Insights:
 <br>
 <a id="seeMore" onclick="toggleSeeMore()" href="javascript:void(0);">(Show table of contents)</a>
 <br>
-<p id="textarea" style="display: none">
+<div id="textarea" style="display: none">
 <ol>
 {% for post in paginator.posts %}
 <li>
@@ -21,7 +21,7 @@ Insights:
 {% endfor %}
 
 </ol>
-</p>
+</div>
 <br>
 <div class="posts">
   {% for post in paginator.posts %}
