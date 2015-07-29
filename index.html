@@ -5,7 +5,7 @@ title: Home
 
 Index:
 
-{% for post in posts %}
+{% for post in paginator.posts %}
 <a href="{{ post.url }}"> {{ post.title }} </a>
 {% endfor %}
 
