@@ -29,4 +29,4 @@ github:
 prose:
   rooturl: '_posts'
   siteurl: 'http://harshnisar.github.io/insights/'
-  media: 'public'
+  media: 'public/images'
