@@ -25,3 +25,8 @@ version:          1.0.0
 
 github:
   repo:           https://github.com/harshnisar/insights
+  
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://harshnisar.github.io/insights/'
+  media: '_posts'
