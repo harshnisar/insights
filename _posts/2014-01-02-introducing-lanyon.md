@@ -9,8 +9,7 @@ published: true
 
 Hello, Lorem Ipsum.
 
-![same english score better return on sal for entry.png]({{site.baseurl}}/public/images/same english score better return on sal for entry.png)
-
+<img src= "{{ site.url }}/public/images/123.png" height=400 width=700></img>
 ..
 
 Blah blah, smart things.
