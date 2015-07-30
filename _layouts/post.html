@@ -8,6 +8,8 @@ layout: default
   {{ content }}
 </div>
 
+{% include _social-share.html %}
+
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
@@ -22,4 +24,7 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
+{% include _discus_comments.html %}
+
 </div>
