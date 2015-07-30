@@ -18,6 +18,8 @@ author:
   name:           'AMResearch'
   url:            https://twitter.com/rnd_at_am
 
+owner:
+  disqus-shortname: aminsights
 paginate:         52
 
 # Custom vars
