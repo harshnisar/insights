@@ -4,7 +4,7 @@ title: Flow of college tier bias across salaries
 tags: 
  - gender
  - india
-categories:
+category:
  - Gender
 ---
 
