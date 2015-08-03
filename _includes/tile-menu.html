@@ -15,9 +15,13 @@
 {% endfor %}
 
 <script>
-  function catindex(){
-    alert('hello');
-    
+  function catindex(ele){
+    cat = this.id;
+    catindex = document.getElementById('catindex');
+    theindex = document.getElementById('theindex');
+    // catindex.removeChild(theindex);
+    htm = "{% include _social-share.html %}"
+    theindex.innerHTML = htm;
   }
 </script>
 
@@ -29,7 +33,7 @@
   
       <div class="col-md-3 col-sm-4 col-xs-6">
         <div class="dummy"></div>
-        <a href="#" onclick="catindex()" class="thumbnail purple"> {{ category | first }}  </a>
+        <a href="#" onclick="catindex(this)" id="{{ category|first }}" class="thumbnail purple"> {{ category | first }}  </a>
       </div>
     
     {% endfor %}
@@ -38,4 +42,11 @@
     </div>
 </div>
 
+<div id='catindex'>
+  <div id='theindex'>
+  </div>
+</div>
+  </div>
+  
+</div>
 
