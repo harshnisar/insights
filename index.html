@@ -12,6 +12,11 @@ Read more about the project <a href=""> here</a>
 
 {% include tile-menu.html %}
 
+{% for cat in site.categories %}
+{{cat}}
+{% endfor }}
+
+
 Insights:
 <br>
 <a id="seeMore" onclick="toggleSeeMore()" href="javascript:void(0);">(Show table of contents)</a>
