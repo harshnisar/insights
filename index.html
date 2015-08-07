@@ -10,7 +10,9 @@ Read more about the project <a href=""> here</a>
 <br><br>
 
 {% for post in site.posts  %}
-  {% if post.type=='input' %}
+  hello
+  {{ post.type  }}
+  {% if post.type == 'input' %}
     {{ post.title  }}
   {% endif %}
 {% endfor %}
