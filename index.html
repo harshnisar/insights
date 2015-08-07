@@ -10,7 +10,9 @@ Read more about the project <a href=""> here</a>
 <br><br>
 
 {% for post in site.posts  %}
-  {{ page.tags }}
+  {% if post.type=='input' %}
+    {{ post.title  }}
+  {% endif %}
 {% endfor %}
 
 Insights:
