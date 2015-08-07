@@ -6,6 +6,8 @@ tags:
  - india
 category:
  - Gender
+
+type: input
 ---
 
 
