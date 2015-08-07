@@ -7,6 +7,7 @@ tags:
   - tier-of-college
 category:
  - Migrations
+type: output
 ---
 
 The trapzoid of meriocracy.
